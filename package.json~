@@ -1,0 +1,4 @@
+"scripts": {
+  "dev": "node node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./dist/output.css --watch",
+  "build": "node node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./dist/output.css --minify"
+}
